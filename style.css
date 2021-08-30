@@ -22,7 +22,7 @@ font-family: 'Satisfy', cursive; */
     --text-color-1: #999;
 }
 html{
-    font-size: 75%;
+    font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
