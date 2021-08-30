@@ -154,15 +154,16 @@ section{
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .about .image{
-    /* background: #fff; */
-    width: 50rem;
-    padding: .2rem;
+    width: 40rem;
+    /* padding: .2rem; */   
     align-items: center;
     border-radius: 2rem;
-    box-shadow: 0 1rem 3rem rgba(235, 225, 225, 0.6);
+    box-shadow: 0 .1rem 3rem rgba(235, 225, 225, 0.6);
+    background-color: #222;
 }
 .about .image img{
     width: 100%;
@@ -348,8 +349,7 @@ section{
 /* --------footer section--------- */
 
 .footer{
-    margin-top: 6rem;   
-    /* background-color: rgb(58, 57, 57); */
+    margin-top: auto;   
     background-color: rgb(58, 57, 57);
     background: transparent;
     box-shadow: 0 0 30px grey;
