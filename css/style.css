@@ -353,6 +353,7 @@ section{
     background-color: rgb(58, 57, 57);
     background: transparent;
     box-shadow: 0 0 30px grey;
+    bottom: 0;
 }
 .social-links{
     text-align: center;
@@ -386,9 +387,13 @@ section{
 /* -------media queries-------------- */
 
 
-@media (max-width:991px){
+@media only screen and (max-width:991px){
     html{
         font-size: 55%;
+    }
+    .home .home-slider {
+        overflow: hidden;
+        
     }
 }
 
@@ -474,7 +479,7 @@ section{
     }
 }
 
-@media (max-width:500px){
+@media only screen and (max-width:500px){
     html{
         font-size: 50%;
     }
@@ -483,5 +488,9 @@ section{
     }
     .header{
         width: 100%;
+    }
+    .home .home-slider {
+        overflow: hidden;
+        margin-bottom: 30px;
     }
 }
