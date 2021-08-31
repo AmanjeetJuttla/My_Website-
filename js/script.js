@@ -7,7 +7,7 @@ var swiper = new Swiper(".home-slider", {
         rotate: 0,
         stretch: 0,
         depth: 100,
-        modifier: 4,
+        modifier: 3,
         slideShadows: true,
     },
     loop: true,
